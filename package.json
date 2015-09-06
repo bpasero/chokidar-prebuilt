@@ -45,9 +45,6 @@
     "sinon": "^1.10.3",
     "sinon-chai": "^2.6.0"
   },
-  "optionalDependencies": {
-    "fsevents": "git://github.com/bpasero/fsevents-prebuilt.git#24dc7ba76fac69b3e3c719eefc5f21cbf18a8ff4"
-  },
   "dependencies": {
     "anymatch": "^1.1.0",
     "arrify": "^1.0.0",
