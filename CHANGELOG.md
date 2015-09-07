@@ -1,3 +1,18 @@
+# Chokidar 1.0.5 (20 July 2015)
+* Fix regression with regexes/fns using in `ignored`
+
+# Chokidar 1.0.4 (15 July 2015)
+* Fix bug with `ignored` files/globs while `cwd` option is set
+
+# Chokidar 1.0.3 (4 June 2015)
+* Fix race issue with `alwaysStat` option and removed files
+
+# Chokidar 1.0.2 (30 May 2015)
+* Fix bug with absolute paths and ENAMETOOLONG error
+
+# Chokidar 1.0.1 (8 April 2015)
+* Fix bug with `.close()` method in `fs.watch` mode with `persistent: false` option
+
 # Chokidar 1.0.0 (7 April 2015)
 * Glob support! Use globs in `watch`, `add`, and `unwatch` methods
 * Comprehensive symlink support
